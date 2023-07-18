@@ -5,8 +5,8 @@
 Capture Traffic is a simple Flask application that allows you to start and stop capturing network traffic using `tcpdump`. It provides two endpoints to control the capture process remotely.
 
 ## Endpoints
-  /start_capture: Start capturing network traffic using tcpdump.
-  /stop_capture: Stop the ongoing network traffic capture gracefully.
+  `/start_capture`: Start capturing network traffic using tcpdump.
+  `/stop_capture`: Stop the ongoing network traffic capture gracefully.
 
 ## Usage
 Run the Flask application with elevated privileges (for tcpdump):
